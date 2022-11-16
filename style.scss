@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.navbar{
+    
+        .collapse{
+            
+            .navbar-nav{
+                display: flex;
+                list-style: none;
+                gap: 70px;
+                padding-top: 10px;
+                font-size: 20px;
+                margin-left: 10px;
+
+                        .navbar__nav__ul__li{
+                            color: rgb(90, 138, 197);
+                            gap: 30px;
+                
+                }
+                .navbar__nav__btn{
+                    width: 100px;
+                    border: none;
+                    border-radius: 8px;
+                    background: rgb(90, 138, 197);
+                    color: aliceblue;
+                    margin-left: 40px;
+                    
+                }
+            }
+        }
+}
+header{
+
+    .input-group{
+        margin-top: 40px;
+        gap: 60px;
+
+            .btn{
+                color: aliceblue;
+               background: rgb(90, 138, 197); 
+            }
+    }
+}
+section{
+    
+
+            .section__pages{
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+
+                    .section__pages__a{
+                        width: 60px;
+                        height: 60px;
+                        text-align: center;
+                        padding-top: 10px;
+                        border-radius: 50%;
+                        background:rgb(90, 138, 197);
+                        font-size: 30px;
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        transition: 0.5s;
+                        color: aliceblue;
+                        border: 2px solid black;
+                    }
+            }
+            .section__pages__a:hover{
+                color: aliceblue;
+                border: 2px solid black;
+                background: red;
+                transform: scale(1.1);
+                z-index: 99;
+            }
+}
+section{
+
+        .section__card{
+            margin-top: 30px;
+
+                        .section__card__carta__card{
+                            border-radius: 30px; 
+                            transition: 1s;                           
+
+                                .section__card__carta__card__img{
+                                    transition: 0.5s;
+                                    width: 100%;
+                                    border-top-left-radius: 15px;
+                                    border-top-right-radius: 15px;
+                                   
+                                    background: rgb(151, 188, 234) ;
+                                }
+                                .section__card__carta__card__h5{
+                                    color: darkslategrey;
+                                }
+                                .section__card__carta__card__p{
+                                    font-size: 20px;
+                                    color: grey;
+                                }
+                                .section__card__carta__card__btn{
+                                    width: 100%;
+                                    color: aliceblue;
+                                    height: 50px;
+                                    border-radius: 10px;
+                                    border:rgb(90, 138, 197) ;
+                                    background: rgb(90, 138, 197);
+                                    transition: 1s;
+                                }
+                        }
+                        .section__card__carta__card__img:hover{
+                            transform: scale(1.1);
+                            z-index: 99;
+                        }
+                        .section__card__carta__card__btn:hover{
+                            transform: scale(1.1);
+                            z-index: 99;
+                            background: red;
+                        }
+                
+        }
+}
